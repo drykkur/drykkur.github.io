@@ -5,5 +5,10 @@ date:   2023-03-26 13:33:49 +0200
 categories: jekyll update
 ---
 
-![test](/assets/mapplot.png){:class="img-responsive"}
+![Barplot](/assets/barplot.png)
+
+
+![Chloropleth map](/assets/mapplot.png){:class="img-responsive"}
+
+{% include plot.html %}
 
