@@ -5,7 +5,7 @@ date:   2023-05-10 13:33:49 +0200
 categories: jekyll update
 ---
 
-test
+i hate css i hate css
 
 
 We are going to show the story of robberies in San Francisco, by analyzing patterns time and location of this crime type. The analysis is build on the historical Police Department Incident Reports from 2003 to 2018 of the crime reports from the San Francisco Police Department. For this analysis we have chosen to focus of the years 2004 to 2017.
