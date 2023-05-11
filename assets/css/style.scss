@@ -3,6 +3,4 @@
 
 @import "{{ site.theme }}";
 
-.wrapper {
-  max-width: calc(1000px - (30px));
-}
+$content-width: 60%;
