@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Traffic colissions in NYC 2012-2020"
-date:   2023-05-12 13:33:49 +0200
+title:  "Traffic collisions in NYC 2012-2020"
+date:   2023-05-10 13:33:49 +0200
 categories: jekyll update
 ---
 
