@@ -28,3 +28,23 @@ Next, we see an interactive bar chart of the total number of robberies in SF eac
 
 From this analysis we have gained insight on the robberies in San Francisco. We have seen how the number of robberies have changed over the years, and how it was still an issue in 2017. We have discovered that the number was stable in the last 4 years of the analysis, but also that it was not improving. Additionally it was seen that further work can be done to reduce the number of robberies in SF, by focusing on the parts of town with low incomes, as the districts here have more robberies than the neighboring districts.
 
+![Percentplot](/assets/percentplot.png)
+
+
+![colcal](/assets/collissioncalendar.jpg)
+
+
+![injcal](/assets/injuredcalendar.jpg)
+
+
+![fatcal](/assets/fatalcalendar.jpg)
+
+
+{% include collissionmap.html %}
+
+
+{% include injurymap.html %}
+
+
+{% include fatalmap.html %}
+
