@@ -110,9 +110,13 @@ It is difficult to even find a trend on this plot. We do see a confirmation of w
 [Explainer notebook can be found here](https://github.com/drykkur/drykkur.github.io/blob/4ca1cc65eca5fe4377f3e9a03f4cd7739b59e609/src/explainer.ipynb).
 
 
-### Some conclusion
+### Some discussion/conclusion
 
+Through this analysis we have found a lot of interesting conclusions about the patterns in vehicle collisions in NYC. We found both geographical and time-dependent patterns, both providing valuable knowledge. 
 
+First of all, we saw from the map plots that by far most collisions happen in Brooklyn. This was not only true for the total number, but also for the percentage. The line chart showed how Brooklyn and Queens turned out to be the boroughs where far most injuries and fatalities occur measured in percent. The cause is thought to be the infrastructure in these parts of NYC, as they have a higher number of speedways and highways. Manhattan is victim of having the highest collision percent of all boroughs, however all the while having lower injury- and fatality percent, the expected reason being the large amount of traffic in that borough. 
+
+The unexpected main character of this analysis proved to be the Covid19 pandemic. From the calendar plots we saw how the number of collisions dropped drastically in the middle of March, and stayed there for a few weeks. However, what was even more interesting, is the fact that the number of injuries and fatalities resulting from vehicle collisions increased a lot in the months and years following the pandemic. This all happened despite the successful attempt to lower the number of collisions in the years leading up to 2020 with the Vision Zero Action Plan, and shows how even the best efforts can be destroyed by unexpected events.
 
 
 
