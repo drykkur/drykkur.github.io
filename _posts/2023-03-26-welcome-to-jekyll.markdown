@@ -19,28 +19,26 @@ It is relevant to investigate, where these collisions happen, and to do this we 
 {% include collissionmap.html %}  
 *An interactive chloropleth map showing number of collisions in each of NYC's five boroughs. The colour of an area indicates the total number of collisions occured in said area, as described by colour legend. Hover over a borough to see the exact values*
 
-The first map plot shows the number of collisions. The darker the area is, the more collisions are happening, and as we saw before, most of the incidents happen in Brooklyn. However, Brooklyn, Bronx, Queens and Manhattan are all quite similar in color, and the only real outlier is Staten Island. This shows that Staten Island is experiencing far fewer collisions than the other forur boroughs. The reasons for this will be discussed in further detail later.
+The first map plot shows the number of collisions. The darker the area is, the more collisions are happening, and as we saw before, most of the incidents happen in Brooklyn. Brooklyn, Queens and Manhattan are all relatively similar in color, however this is not the case for Bronx and Staten Island. This shows that Bronx and Staten Island are experiencing far fewer collisions than the other three boroughs. The reason for this may be the layout of the cities, which both have more open spaces and fewer people than the other boroughs.
 
-Now let's compare this to the map plot below, which shows the number of injuries that result from these collisions.
+Now let's compare this to the map plot below, which shows the number of injuries that result from these collisions. By defauld, we should expect this plot to look relatively similar, in the case where the number of injuries follow the number of collisions.
 
 {% include injurymap.html %}
 *An interactive chloropleth map showing number of injuries resulting from collisions in each of NYC's five boroughs. The colour of an area indicates the total number of injuries occured in said area, as described by colour legend. Hover over a borough to see the exact values*
 
-
-From this plot we see that the color differences are a bit bigger, indicating that there is a larger difference in the number of injuries between the different boroughs. This is especially the case for Bronx/Manhattan and Brooklyn/Queens. Notice also how the geographical location makes boroughs more prone to have similar numbers of incidents.
+From this plot we see that the color differences are indeed a bit bigger, indicating that there is a larger difference in the number of injuries between the different boroughs. The color of Manhattan has especially changed and is now much lighter, indicating that many collisions happening here do not lead to injuries. Notice also how the geographical location makes boroughs more prone to have similar numbers of incidents. 
 
 Let's see if this is also the case for the number of fatalities in the next plot.
 
 {% include fatalmap.html %}
 *An interactive chloropleth map showing number of fatalities resulting from collisions in each of NYC's five boroughs. The colour of an area indicates the total number of fatalities occured in said area, as described by colour legend. Hover over a borough to see the exact values*
 
-We immediately notice that the color difference has become smaller, meaning that the difference between the different boroughs has become smaller. But is this because the number of fatalities in Staten Island is higher or because the number of fatalities in the other boroughs are lower?
-
+We immediately notice that the color difference has become smaller, meaning that the difference between the different boroughs has become smaller. Is this because the number of fatalities in Staten Island is higher or because the number of fatalities in the other boroughs are lower? We'll come back to that a bit later.
 
 So far, we have investigated the differences between the boroughs in total numbers. However, we have not taken into account that they all have very different numbers of residents. Many vehicle collisions might just be a result of a high populations and not necessarily anything that can be improved, so let's have a look at the numbers.
 
 Brooklyn, with 31.22% of NYC residents, is the borough with most people living there. On the contrary, only 
-5.64% of New Yorkers live in Staten Island. The rest of the boroughs are in between, Queens with 26.91%, Manhattan with 19.01% and Bronx with 17.22%.
+5.64% of New Yorkers live in Staten Island. The rest of the boroughs are in between; Queens with 26.91%, Manhattan with 19.01% and Bronx with 17.22%.
 
 Why is this interesting? To answer that question, let's have a look at the plot below. This plot shows the percentage of total collisions, injuries and fatalities in each of the five boroughs in NYC. The blue line is used for reference, and shows the percentage of the population living in each of the boroughs.
 
@@ -110,7 +108,7 @@ It is difficult to even find a trend on this plot. We do see a confirmation of w
 [Explainer notebook can be found here](https://github.com/drykkur/drykkur.github.io/blob/4ca1cc65eca5fe4377f3e9a03f4cd7739b59e609/src/explainer.ipynb).
 
 
-### Some discussion/conclusion
+### What have we learned?
 
 Through this analysis we have found a lot of interesting conclusions about the patterns in vehicle collisions in NYC. We found both geographical and time-dependent patterns, both providing valuable knowledge. 
 
