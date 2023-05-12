@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Social data analysis assignment 2
+title: Social data analysis, final assignment
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Assignment for course Social data analysis and visualization, 2023

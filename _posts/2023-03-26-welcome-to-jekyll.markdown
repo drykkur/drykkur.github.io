@@ -58,7 +58,9 @@ We see that there is certainly a clear overrepresentation of fatalities in the t
 NYC is continuously working on improving the road safety for pedestrians and drivers in the city. One example of this is [Automated Enforcement](https://www.nyc.gov/content/visionzero/pages/automated-enforcement), where cameras are being installed to catch people crossing red lights and people going more than 10mph over the speed limit in certain zones. The question is, however, do these precautions result in fewer and/or less severe vehicle collisions? And are some boroughs progressing better than the others?  
 The plots below show the total number of collisions, injuries and fatalities in each of the different boroughs in the years 2012-2022.
 
-missing image
+![colyr](/assets/colyr.png)
+
+*A bar plot of collisions by borough and year*
 
 
 From the plot above we see the number of collisions for each borough per year.  First of all, we see how the distribution confirms what we say previously, that Brooklyn has the most collisions and Staten Island has the least. 
@@ -68,12 +70,16 @@ Another thing to notice is that Manhattan was successful in lowering the number 
 
 So how do these trends compare to the number of injuries? Let's have a look at that below.
 
-missing image
+![injyr](/assets/injyr.png)
+
+*A bar plot of injuries caused by collisions by borough and year*
 
 
 This plot surprisingly shows a different trend. We still see a sudden decrease in 2020 for all boroughs, however the number quickly bounce back to the same level as before Covid for most of them. This indicates that even though there are now fewer collisions, they have become more severe so more people are getting injured. Sadly, as we are about to see on the next plot, this is also the case for the number of fatalities. 
 
-missing image
+![fatyr](/assets/fatyr.png)
+
+*A bar plot of fatalities caused by collisions by borough and year*
 
 From the plot above we see that the number of people getting killed as a result of vehicle collisions has not gotten lower over the years. If anything, we are seing an upward trend especially in Brooklyn and Bronx. The reson for this should most likely also be found in the Covid19 Pandemic. Based on [this article](https://www.nytimes.com/2021/01/01/nyregion/nyc-traffic-deaths.html), it seems that many people, including young and inexperienced drivers, turned to the roads for a feeling of freedom. This, combined in an increase in drug- and alcohol abuse is likely to have caused the sudden increase.
 
