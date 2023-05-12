@@ -111,7 +111,7 @@ Lastly, let's have a look at the fatalities.
 
 It is difficult to even find a trend on this plot. We do see a confirmation of what we found earlier, that more people were killed in the middle of the pandemic. Especially the summer months of 2020 was high in fatalities. The very clear outlier that is seen on 31. Otober 2017 is the [Truck Attack](https://www.nytimes.com/2017/10/31/nyregion/police-shooting-lower-manhattan.html) on a bikelane that left 8 people dead.
 
-[Explainer notebook can be found here](https://github.com/drykkur/drykkur.github.io/blob/4ca1cc65eca5fe4377f3e9a03f4cd7739b59e609/src/explainer.ipynb).
+[Explainer notebook can be found here](https://github.com/drykkur/drykkur.github.io/blob/1cbf7db3e794067f43714bd628f477c4fc7c012c/src/explainer.ipynb).
 
 
 ### What have we learned?
